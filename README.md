@@ -6,11 +6,13 @@ Definition of GS from Curtis Roads – "Granular synthesis deals with sound at a
 
 The engine applies this concept by taking position information from a sample or live input, adding noise to the position and multiplying it by a certain duration in ms to create a 'grain' of the sample. 8 grains are played simultaneously with different phases, which creates a 'freeze' of that point – an eternal loop of that sample position. To control this, MIDI can be used to skip through the sample, or the repositioning system can scrub through randomly at a determinable rate.
 
+For technical details and full functionality please [see here](https://helioslyons.com/article/0.html).
+
 ![alt text](https://raw.githubusercontent.com/haelyons/Website-Content/master/BLUE%20SPACE.png)
 
 
   ## Entropy Cleric
-Additive synthesizer with wave shape, ADSR, filter, LFO and overdrive controls. Includes a generative MIDI system based on selectable MIDI input that is used to make chords, in addition to a playable MIDI system. This was used to create the track 'Pareidolia' which is available on Soundcloud. Twitch Chat Integration was established using 'Chatty' Java app, though it is not automated as Max is unable to read from dynamically updated text files without manually reloading.
+Additive synthesizer with wave shape, ADSR, filter, LFO and overdrive controls. Includes a generative MIDI system based on selectable MIDI input that is used to make chords, in addition to a playable MIDI system. This was used to create the track 'Pareidolia' which is available on Soundcloud. Twitch Chat Integration was established using 'Chatty' Java app, though it is not automated as Max is unable to read from dynamically updated text files without manually reloading. For details on the generative system used for notes, and the overall functionality of the synthesizer, please see [this blog post](https://helioslyons.com/article/1.html).
 
 ![alt text](https://github.com/haelyons/Website-Content/blob/master/ENTROPY%20CLERIC%202.png)
 
