@@ -19,6 +19,6 @@ Instructions – from Max patch;
 2. Enable preferred oscillators – OSC1, OSC2, or Overtones –  and choose waveform. Ensure chosen oscillator gain is above minimum.
 3. Change to preferred filter type or Bypass mode. 
 4. Select input type:
-     i. If midi keyboard, ensure Spicey™ Generation toggle is off
-     ii. If Spicey™, turn toggle on and modify parameters. 
+     * If midi keyboard, ensure Spicey™ Generation toggle is off
+     * If Spicey™, turn toggle on and modify parameters. 
 5. Press preset 1, or another preset, and add notes to Spicey™ Generator if using instead of MIDI input (don't forget to toggle).
