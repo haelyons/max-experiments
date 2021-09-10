@@ -13,3 +13,12 @@ The engine applies this concept by taking position information from a sample or 
 Additive synthesizer with wave shape, ADSR, filter, LFO and overdrive controls. Includes a generative MIDI system based on selectable MIDI input that is used to make chords, in addition to a playable MIDI system. This was used to create the track 'Pareidolia' which is available on Soundcloud. Twitch Chat Integration was established using 'Chatty' Java app, though it is not automated as Max is unable to read from dynamically updated text files without manually reloading.
 
 ![alt text](https://github.com/haelyons/Website-Content/blob/master/ENTROPY%20CLERIC%202.png)
+
+Instructions – from Max patch;
+1. Ensure audio is turned on and master gain slider is above -inf.
+2. Enable preferred oscillators – OSC1, OSC2, or Overtones –  and choose waveform. Ensure chosen oscillator gain is above minimum.
+3. Change to preferred filter type or Bypass mode. 
+4. Select input type:
+     i. If midi keyboard, ensure Spicey™ Generation toggle is off
+     ii. If Spicey™, turn toggle on and modify parameters. 
+5. Press preset 1, or another preset, and add notes to Spicey™ Generator if using instead of MIDI input (don't forget to toggle).
