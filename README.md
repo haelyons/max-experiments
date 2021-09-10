@@ -14,7 +14,7 @@ Additive synthesizer with wave shape, ADSR, filter, LFO and overdrive controls. 
 
 ![alt text](https://github.com/haelyons/Website-Content/blob/master/ENTROPY%20CLERIC%202.png)
 
-Instructions – from Max patch;
+  ### Instructions – from Max patch;
 1. Ensure audio is turned on and master gain slider is above -inf.
 2. Enable preferred oscillators – OSC1, OSC2, or Overtones –  and choose waveform. Ensure chosen oscillator gain is above minimum.
 3. Change to preferred filter type or Bypass mode. 
