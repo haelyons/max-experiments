@@ -1,4 +1,6 @@
 # MaxMSP-Experiments
+This repository contains two projects made during my time learning and creating with MaxMSP at the University of Leeds, as part of the Music, Multimedia and Electronics BSc. MaxMSP is a visual programming language intended for signal processing, and is especially useful for live experimentation with digital signals. The first project is a granular sampler -- Blue Space -- with a number of customisable parameters and a special design using 8 phase-shifted grains for a more complex output. The second is a synthesizer -- Entropy Cleric -- built from scratch with  custom distortion and delay modules, as well as a generative note system that I designed and had a lot of fun playing around with (check out the generative piece of music I made with it: [Pareidolia](https://soundcloud.com/0x0c/pareidolia)).
+
   ## Blue Space
 Live granular synthesis (GS) engine based on the [Sakonda Granular Synthesis v2.5 patch](http://formantbros.jp/sako/download.html). Features live looping and recording functionality, mouse driven sample scrub and random positioning system for evolving textures.
 
@@ -16,7 +18,7 @@ Additive synthesizer with wave shape, ADSR, filter, LFO and overdrive controls. 
 
 ![alt text](https://github.com/haelyons/Website-Content/blob/master/ENTROPY%20CLERIC%202.png)
 
-  ### Instructions – from Max patch;
+  ### Instructions;
 1. Ensure audio is turned on and master gain slider is above -inf.
 2. Enable preferred oscillators – OSC1, OSC2, or Overtones –  and choose waveform. Ensure chosen oscillator gain is above minimum.
 3. Change to preferred filter type or Bypass mode. 
