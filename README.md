@@ -12,14 +12,14 @@ Definition of GS from Curtis Roads – "Granular synthesis deals with sound at a
 
 The engine applies this concept by taking position information from a sample or live input, adding noise to the position and multiplying it by a certain duration to create a 'grain' of the sample. 8 grains are played simultaneously with different phases, which creates a 'freeze' of that point – an eternal loop of that sample position. To control this, MIDI can be used to skip through the sample, or the repositioning system can scrub through randomly at a determinable rate.
 
-For technical details and full functionality please [see here](https://helioslyons.com/article/0.html).
+For technical details and full functionality please [see here](https://helioslyons.com/posts/blue-space/). 
 
 ![alt text](https://raw.githubusercontent.com/haelyons/Website-Content/master/BLUE%20SPACE.png)
 
   ## Entropy Cleric
 Additive synthesizer with wave shape, ADSR, filter, LFO and overdrive controls. Includes a generative MIDI system based on selectable MIDI input that is used to make chords, in addition to a playable MIDI system. This was used to create the track 'Pareidolia' which is available on Soundcloud. Twitch Chat Integration was established using 'Chatty' Java app, though it is not automated as Max is unable to read from dynamically updated text files without manually reloading. For details on the generative system used for notes, and the overall functionality of the synthesizer, please see [this blog post](https://helioslyons.com/article/1.html).
 
-![alt text](https://github.com/haelyons/Website-Content/blob/master/ENTROPY%20CLERIC%202.png)
+![alt text](https://helioslyons.com/posts/entropy-cleric/)
 
   ### Instructions;
 1. Ensure audio is turned on and master gain slider is above -inf.
@@ -33,5 +33,5 @@ Additive synthesizer with wave shape, ADSR, filter, LFO and overdrive controls. 
   ## Future Uploads
 A few projects I need to get around to uploading (please send a DM to give me a kick if these sound interesting to you):
 - IDMIIb - A Open-NI Mate tool for the Kinect that allows manually allocation of points within a given 3D space to act as sample triggers. 
-- IDMII - A Open-NI Mate tool for the Kinect that implements the concept of 'Mapping by Demonstration', whereby sound-motion pairs are recorded, and can then be played by in real-time with motion capture and granular re-synthesis. [log post here.](https://helioslyons.com/article/3.html)
+- IDMII - A Open-NI Mate tool for the Kinect that implements the concept of 'Mapping by Demonstration', whereby sound-motion pairs are recorded, and can then be played by in real-time with motion capture and granular re-synthesis. [blog post here.](https://helioslyons.com/posts/idm-2/)
 - A live VJ tool that takes a selection of images and performs some interpolation and beat matching (integrated with Serato DJ for live events). Just a bit of fun :)
