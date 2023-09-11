@@ -17,9 +17,9 @@ For technical details and full functionality please [see here](https://helioslyo
 ![alt text](https://raw.githubusercontent.com/haelyons/Website-Content/master/BLUE%20SPACE.png)
 
   ## Entropy Cleric
-Additive synthesizer with wave shape, ADSR, filter, LFO and overdrive controls. Includes a generative MIDI system based on selectable MIDI input that is used to make chords, in addition to a playable MIDI system. This was used to create the track 'Pareidolia' which is available on Soundcloud. Twitch Chat Integration was established using 'Chatty' Java app, though it is not automated as Max is unable to read from dynamically updated text files without manually reloading. For details on the generative system used for notes, and the overall functionality of the synthesizer, please see [this blog post](https://helioslyons.com/article/1.html).
+Additive synthesizer with wave shape, ADSR, filter, LFO and overdrive controls. Includes a generative MIDI system based on selectable MIDI input that is used to make chords, in addition to a playable MIDI system. This was used to create the track 'Pareidolia' which is available on Soundcloud. Twitch Chat Integration was established using 'Chatty' Java app, though it is not automated as Max is unable to read from dynamically updated text files without manually reloading. For details on the generative system used for notes, and the overall functionality of the synthesizer, please see [this blog post](https://helioslyons.com/posts/entropy-cleric/).
 
-![alt text](https://helioslyons.com/posts/entropy-cleric/)
+![alt text](https://github.com/haelyons/Website-Content/blob/master/ENTROPY%20CLERIC%202.png)
 
   ### Instructions;
 1. Ensure audio is turned on and master gain slider is above -inf.
