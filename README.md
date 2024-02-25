@@ -30,10 +30,10 @@ Additive synthesizer with wave shape, ADSR, filter, LFO and overdrive controls. 
      * If Spicey™, turn toggle on and modify parameters. 
 5. Press preset 1, or another preset, and add notes to Spicey™ Generator if using instead of MIDI input (don't forget to toggle).
 
-  ## Future Uploads
+## Amp Player (amplitude threshold video player)
+Dynamically fetches the amplitude of the last N seconds of sound and calculates a threshold value. When the value is exceeded by the input sound, `bang` message is generated which triggers the next video in a Jitter playlist. The Jitter video playlist works best with short snippets of videos or gifs that loop if the threshold is not reached before the end of that clip. The delta of the actual amplitude and the threshold value applies video effects to the jitter output. Audio is intended to be taken in from external applications -- ex. used in a live context with Serato or RekordBox while mixing.
+
+## Future Uploads
 A few projects I need to get around to uploading (please send a DM to give me a kick if these sound interesting to you):
 - IDMIIb - A Open-NI Mate tool for the Kinect that allows manually allocation of points within a given 3D space to act as sample triggers. 
 - IDMII - A Open-NI Mate tool for the Kinect that implements the concept of 'Mapping by Demonstration', whereby sound-motion pairs are recorded, and can then be played by in real-time with motion capture and granular re-synthesis. [blog post here.](https://helioslyons.com/posts/idm-2/)
-
-## Amp Player (amplitude threshold video player)
-Dynamically fetches the amplitude of the last N seconds of sound and calculates a threshold value. When the value is exceeded by the input sound, `bang` message is generated which triggers the next video in a Jitter playlist. The Jitter video playlist works best with short snippets of videos or gifs that loop if the threshold is not reached before the end of that clip. The delta of the actual amplitude and the threshold value applies video effects to the jitter output. Audio is intended to be taken in from external applications -- ex. used in a live context with Serato or RekordBox while mixing.
