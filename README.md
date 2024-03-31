@@ -5,6 +5,9 @@ Others are tools I have found fun to make, and useful in interactive, algorithmi
 
 You can listen to a stochastic piece made with the Entropy Cleric synth here: [Pareidolia](https://soundcloud.com/0x0c/pareidolia).
 
+  ## Lydian Bells (ring buffer FM synth) -- courtesy of Tom Dean
+Frequency modulation based synth with interesting wave-shaping, ring-buffer when in Sustain mode to allow continual evolution of textures, and ADSR for individual note control. Requires Max 8.2.0 for the ADSR UI, though there are plain fields that can be used if this interface doesn't work.
+
   ## Blue Space (granular synth)
 Live granular synthesis (GS) engine based on the [Sakonda Granular Synthesis v2.5 patch](http://formantbros.jp/sako/download.html). Features live looping and recording functionality, mouse driven sample scrub and random positioning system for evolving textures.
 
