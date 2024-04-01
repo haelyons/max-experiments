@@ -1,9 +1,7 @@
 # MaxMSP-Experiments
-This repository contains some projects made during my time learning and creating with MaxMSP at the University of Leeds, as part of the Music, Multimedia and Electronics BSc. MaxMSP is a visual programming language intended for signal processing, and is especially useful for live experimentation with digital signals. 
+Tools made in MaxMSP. Max is a visual programming language intended for signal processing, and is especially useful for real-time applications. Below you can find 3 synthesizers, of which Entropy Cleric has a generative (algorithmic) composition tool. I use these mostly in the context of interactive support for multimedia performance.
 
-Others are tools I have found fun to make, and useful in interactive, algorithmic support to multimedia performance. 
-
-You can listen to a stochastic piece made with the Entropy Cleric synth here: [Pareidolia](https://soundcloud.com/0x0c/pareidolia).
+You can listen to a stochastic piece made with the Entropy Cleric synth here: [Pareidolia](https://soundcloud.com/0x0c/pareidolia). Examples with Lydian Bells available on request :) 
 
   ## Lydian Bells (ring buffer FM synth) -- courtesy of Tom Dean
 Frequency modulation based synth with interesting wave-shaping, ring-buffer when in Sustain mode to allow continual evolution of textures, and ADSR for individual note control. Requires Max 8.2.0 for the ADSR UI, though there are plain fields that can be used if this interface doesn't work.
