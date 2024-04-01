@@ -1,4 +1,4 @@
-# MaxMSP-Experiments
+# Context
 Tools made in MaxMSP. Max is a visual programming language intended for signal processing, and is especially useful for real-time applications. Below you can find 3 synthesizers, of which Entropy Cleric has a generative (algorithmic) composition tool. I use these mostly in the context of interactive support for multimedia performance.
 
 You can listen to a stochastic piece made with the Entropy Cleric synth here: [Pareidolia](https://soundcloud.com/0x0c/pareidolia). Examples with Lydian Bells available on request :) 
